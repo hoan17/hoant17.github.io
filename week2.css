@@ -1,0 +1,24 @@
+h1{
+color: blue;
+
+}
+
+p{
+  font-size: 15px;
+  font-size: italic;
+  font-weight: bold;
+  border: 4px dotted #0033d2;
+  border-bottom-color: red;
+  letter-spacing: 3px;
+
+}
+
+#first{
+  font-size: 30px;
+  border-color: green;
+  line height: 10px;
+}
+
+.highlight{
+  background-color: yellow;
+}
