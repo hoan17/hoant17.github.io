@@ -60,9 +60,8 @@ a:link, a:visited {
   display: inline;
   left: 30px;
   width: 70px;
-  /*filter: drop-shadow(0 0 2px #BB8B41);*/
 	z-index: 100;
-	opacity: .75;
+	opacity: 75%;
 }
 
 .top {
