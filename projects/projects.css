@@ -41,11 +41,10 @@ h1 {
 h2 {
   font-family: 'Lack Regular', sans-serif;
   font-weight: normal;
-  font-size: 40px;
-  color: #BB8B41;
-  margin-left: 10vw;
-  margin-right: 10vw;
-
+  font-size: 20px;
+  color: #8c724a;
+  margin-left: 20vw;
+  margin-right: 20vw;
 }
 
 a:link, a:visited {
@@ -70,9 +69,7 @@ a:link, a:visited {
   left: 5vw;
   right: 10vw;
 	opacity: .75;
-
 }
-
 
 .ex {
   width: 70vw;
