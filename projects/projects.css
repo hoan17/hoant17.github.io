@@ -99,6 +99,11 @@ a:link, a:visited {
   text-align: center;
 }
 
+.fig {
+	width: 70vw;
+	height:700px;
+}
+
 .button {
   background-color: white;
   border: 5px solid rgb(187, 139, 65, .75);
