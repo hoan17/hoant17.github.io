@@ -1,0 +1,151 @@
+@font-face {
+	font-family: 'Lack Regular';
+	src: url('lack-regular.woff');
+}
+@font-face {
+	font-family: 'Lack Line Regular';
+	src: url('lack-line-regular.woff');
+}
+
+::selection {
+  background: #0000FF; /* WebKit/Blink Browsers */
+  color: white;
+}
+::-moz-selection {
+  background: #0000FF; /* Gecko Browsers */
+  color: white;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+body {
+	 overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Lack Regular', sans-serif;
+  font-weight: normal;
+  font-size: 80px;
+  color: #0000FF;
+}
+
+h2 {
+  font-family: 'Lack Regular', sans-serif;
+  font-weight: normal;
+  font-size: 50px;
+  color: #0000FF;
+}
+
+p {
+	font-family: 'Lack Regular', sans-serif;
+	font-weight: normal;
+	font-size: 30px;
+	color: #0000FF;
+}
+
+a:link, a:visited {
+  color: #0000FF;
+}
+
+.back {
+	position: fixed;
+  display: inline;
+  left: 30px;
+  width: 70px;
+	z-index: 100;
+	opacity: 75%;
+}
+
+.top {
+  position: absolute;
+  left: 5vw;
+  right: 10vw;
+	padding-top: 50px;
+}
+
+.toppity {
+  color: #BB8B41;
+  position: fixed;
+  left: 5vw;
+	z-index: 99;
+	opacity: .75;
+}
+
+.bottom {
+	color: #BB8B41;
+  position: fixed;
+  right: 5vw;
+  bottom: 0;
+	z-index: 99;
+	opacity: .75;
+}
+
+.sig {
+  position: fixed;
+  right: -100px;
+  /*filter: drop-shadow(0 0 15px #FF7477);*/
+  width: 90%;
+  z-index: -1;
+	opacity: .75;
+}
+
+.surprise:hover {
+  color: transparent;
+  text-shadow: 0 0 10px rgba(0,0,255,1);
+}
+
+.parent {
+	display: flex;
+}
+
+.title{
+	width: 50vw;
+	text-align: center;
+	padding: 20vh 0;
+  opacity: 0;
+}
+
+.photo {
+	width: 50vw;
+}
+
+.drop{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.swap {
+	position: relative;
+	display: inline-block;
+}
+
+.swap .original {
+	display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.parent:hover .original {
+	display: inline;
+
+}
+
+.parent:hover .title {
+  opacity: 1;
+}
+
+.update {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-right: 20px;
+}

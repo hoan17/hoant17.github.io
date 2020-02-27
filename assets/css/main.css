@@ -6,14 +6,9 @@
 	font-family: 'Lack Line Regular';
 	src: url('lack-line-regular.woff');
 }
-
-::selection {
-  background: #0000FF; /* WebKit/Blink Browsers */
-  color: white;
-}
-::-moz-selection {
-  background: #0000FF; /* Gecko Browsers */
-  color: white;
+@font-face {
+	font-family: 'GT America Regular';
+	src: url('GT_America_Regular.otf');
 }
 
 .noselect {
@@ -30,122 +25,150 @@ body {
 	 overflow-x: hidden;
 }
 
-h1 {
-  font-family: 'Lack Regular', sans-serif;
-  font-weight: normal;
-  font-size: 80px;
-  color: #0000FF;
-}
-
 h2 {
-  font-family: 'Lack Regular', sans-serif;
-  font-weight: normal;
-  font-size: 50px;
-  color: #0000FF;
+	font-family: 'Lack Regular', sans-serif;
+	font-size: 36pt;
+	text-align: center;
 }
 
 p {
-	font-family: 'Lack Regular', sans-serif;
-	font-weight: normal;
-	font-size: 30px;
-	color: #0000FF;
+  font-family: 'GT America Regular', sans-serif;
 }
 
-a:link, a:visited {
-  color: #0000FF;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.back {
+.topnav {
+	height: 48px;
+	width: 100vw;
+	left: 0;
 	position: fixed;
-  display: inline;
-  left: 30px;
-  width: 70px;
-	z-index: 100;
-	opacity: 75%;
+	top:0;
+	z-index: 1;
+	background-color: white;
 }
 
-.top {
-  position: absolute;
-  left: 5vw;
-  right: 10vw;
-	padding-top: 50px;
+.topnav a {
+  font-family: 'Lack Regular', sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+  font-size: 18pt;
+	line-height: 48px;
 }
 
-.toppity {
-  color: #BB8B41;
-  position: fixed;
-  left: 5vw;
-	z-index: 99;
-	opacity: .75;
+.topnav a:hover {
+  font-family: 'Lack Line Regular', sans-serif;
 }
 
-.bottom {
-	color: #BB8B41;
-  position: fixed;
-  right: 5vw;
-  bottom: 0;
-	z-index: 99;
-	opacity: .75;
+.home {
+  padding-left: 48px;
+}
+
+.topnavRight {
+  float: right;
+}
+
+.navlink {
+  padding-right: 48px;
+}
+
+#on {
+	text-decoration: underline;
+}
+
+#on:hover {
+	font-family: 'Lack Regular', sans-serif;
 }
 
 .sig {
-  position: fixed;
-  right: -100px;
-  /*filter: drop-shadow(0 0 15px #FF7477);*/
-  width: 90%;
-  z-index: -1;
-	opacity: .75;
-}
-
-.surprise:hover {
-  color: transparent;
-  text-shadow: 0 0 10px rgba(0,0,255,1);
+  padding-bottom: 48px;
 }
 
 .parent {
-	display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.child{
+  padding-bottom: 60px;
+	cursor: pointer;
 }
 
-.title{
-	width: 50vw;
+.filters {
 	text-align: center;
-	padding: 20vh 0;
-  opacity: 0;
+	padding-bottom: 36px;
+}
+
+.button {
+	background-color: #4982D8;
+  border: 1px solid #4982D8;
+	color: white;
+  border-radius: 20px;
+  padding: 6px 12px;
+	margin-left: 12px;
+	margin-right: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+	font-size: 10pt;
+	font-family: 'GT America Regular', sans-serif;
+	outline:0;
+}
+
+#digital.active {
+	background-color: white;
+	color: #4982D8;
+}
+
+#print.active {
+	background-color: white;
+	color: #4982D8;
+}
+
+.dig {
+	display: block;
+}
+
+.dig.active {
+	display: none;
+}
+
+.pri {
+	display: block;
+}
+
+.pri.active {
+	display: none;
 }
 
 .photo {
-	width: 50vw;
+  width: 600px;
 }
 
-.drop{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.title {
+  margin-left: 36px;
+	font-size: 12pt;
 }
 
-.swap {
-	position: relative;
-	display: inline-block;
+.about {
+	margin-top: 96px;
+	font-size: 24pt;
+	margin-left: 48px;
+	margin-right: 48px;
 }
 
-.swap .original {
-	display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
+.contact {
+	margin-top: 96px;
+	font-size: 24pt;
+	margin-left: 48px;
+	font-family: 'Lack Regular', sans-serif;
 }
 
-.parent:hover .original {
-	display: inline;
+.contact a:hover {
+	font-family: 'Lack Line Regular', sans-serif;
 
-}
-
-.parent:hover .title {
-  opacity: 1;
-}
-
-.update {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	margin-right: 20px;
 }
