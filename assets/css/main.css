@@ -98,53 +98,6 @@ a {
 	cursor: pointer;
 }
 
-.filters {
-	text-align: center;
-	padding-bottom: 36px;
-}
-
-.button {
-	background-color: #4982D8;
-  border: 1px solid #4982D8;
-	color: white;
-  border-radius: 20px;
-  padding: 6px 12px;
-	margin-left: 12px;
-	margin-right: 12px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-	font-size: 10pt;
-	font-family: 'GT America Regular', sans-serif;
-	outline:0;
-}
-
-#digital.active {
-	background-color: white;
-	color: #4982D8;
-}
-
-#print.active {
-	background-color: white;
-	color: #4982D8;
-}
-
-.dig {
-	display: block;
-}
-
-.dig.active {
-	display: none;
-}
-
-.pri {
-	display: block;
-}
-
-.pri.active {
-	display: none;
-}
-
 .photo {
   width: 600px;
 }
