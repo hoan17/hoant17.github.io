@@ -1,0 +1,94 @@
+@font-face {
+	font-family: "rockwell";
+	src: url("rockwell.otf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100vw;
+}
+
+h1, h2 {
+  font-family: "rockwell";
+  color: #2C7E05;
+}
+
+h2 {
+  font-size: 14pt;
+}
+
+#desktop {
+  display: none;
+}
+
+#topnav {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 48px;
+  height: 60px;
+  width: 100vw;
+  background-color: white;
+}
+
+hr {
+  position: fixed;
+  margin: 0;
+  top: 108px;
+  color: #2C7E05;
+  border: solid 1px;
+  width: 100vw;
+}
+
+#treeicon {
+  width: 40px;
+}
+
+.tablink {
+  opacity: 0.25;
+}
+
+.tablinkon {
+  opacity: 1;
+}
+
+#about {
+  visibility: hidden;
+  position: fixed;
+  top: 50vh;
+  background: white;
+  width: 80vw;
+  padding: 24px;
+  border: solid 1px #2C7E05;
+  z-index: 1;
+}
+
+#about .show {
+  visibility: visible;
+
+}
+
+@media only screen and (min-width: 601px) {
+  #desktop {
+    position: fixed;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+  }
+
+  .preview {
+    padding-top: 50px;
+  }
+
+}
