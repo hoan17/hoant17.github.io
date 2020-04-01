@@ -125,3 +125,7 @@ a {
 	font-family: 'Lack Line Regular', sans-serif;
 
 }
+
+#canvas {
+	display: block;
+}
