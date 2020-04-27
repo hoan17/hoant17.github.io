@@ -241,7 +241,7 @@ p {
 
 
 .energyimg {
-  width: 50px;
+  width: 40px;
 }
 
 .energy-swed {
@@ -323,6 +323,15 @@ p {
 
 .agri-row:hover .agriimg {
   width: 300px;
+}
+
+#dala-parent {
+  display: flex;
+  justify-content: center;;
+}
+
+.dala {
+  width: 850px;
 }
 
 #ikea-grid {
