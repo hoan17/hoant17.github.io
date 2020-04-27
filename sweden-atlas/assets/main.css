@@ -143,6 +143,16 @@ p {
   width: 300px;
 }
 
+#climate-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.climate-chart {
+  max-width: 600px;
+}
+
 .calendar-grid{
   display: flex;
   flex-wrap: wrap;
@@ -163,7 +173,43 @@ p {
 }
 
 .calendar-1:hover {
-  background: url('img/northern-lights/lights1');
+  background: url(img/northern-lights/lights1.jpg) no-repeat;
+  background-size: 200px 160px;
+}
+
+.calendar-2:hover {
+  background: url(img/northern-lights/lights2.jpg) no-repeat;
+  background-size: 200px 160px;
+}
+
+.calendar-3:hover {
+  background: url(img/northern-lights/lights3.jpg) no-repeat;
+  background-size: 200px 160px;
+}
+
+.calendar-4:hover {
+  background: url(img/northern-lights/lights4.jpg) no-repeat;
+  background-size: 200px 160px;
+}
+
+.calendar-5:hover {
+  background: url(img/northern-lights/lights5.jpg) no-repeat;
+  background-size: 200px 160px;
+}
+
+.calendar-6:hover {
+  background: url(img/northern-lights/lights6.jpg) no-repeat;
+  background-size: 200px 160px;
+}
+
+.calendar-7:hover {
+  background: url(img/northern-lights/lights7.jpg) no-repeat;
+  background-size: 200px 160px;
+}
+
+.calendar-8:hover {
+  background: url(img/northern-lights/lights8.jpg) no-repeat;
+  background-size: 200px 160px;
 }
 
 .populationchange-div {

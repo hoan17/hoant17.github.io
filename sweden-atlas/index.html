@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>ATLAS OF SWEDEN</title>
     <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/cocoen.min.css" />
     <link rel="shortcut icon" href="assets/img/icon.png">
   </head>
 
@@ -35,12 +36,20 @@
 
       <div id="compared-container">
         <h1>SWEDEN COMPARED</h1>
-        <img src="assets/img/sketch/compared.jpg" alt="placeholer" class="placeholder">
       </div>
 
       <div id="climate-container">
         <h1>CLIMATE</h1>
-        <img src="assets/img/sketch/climate.jpg" alt="placeholer" class="placeholder">
+        <div id="climate-parent">
+          <h2>SUMMER</h2>
+          <div class="climate-chart">
+            <div class="cocoen">
+              <img src="assets/img/climate/climatesummer.png" alt="summer climate">
+              <img src="assets/img/climate/climatewinter.png" alt="winter climate">
+            </div>
+          </div>
+          <h2>WINTER</h2>
+        </div>
       </div>
 
       <div id="calendar-container">
@@ -298,5 +307,9 @@
         <img src="assets/img/sketch/ikea.jpg" alt="placeholer" class="placeholder">
       </div>
 
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/cocoen-jquery.min.js"></script>
+    <script src="assets/js/cocoen.min.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
