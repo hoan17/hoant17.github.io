@@ -57,6 +57,7 @@ h3 {
 p {
   font-family: 'sweden_sansregular', sans-serif;
   font-size: 18px;
+  color: white;
 }
 
 .inline {
@@ -322,4 +323,15 @@ p {
 
 .agri-row:hover .agriimg {
   width: 300px;
+}
+
+#ikea-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.ikea-chair {
+  width: 50px;
 }
