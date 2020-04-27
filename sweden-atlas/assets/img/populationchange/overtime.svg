@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 500" style="enable-background:new 0 0 800 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FECB00;stroke-width:3;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:#FECB00;}
+	.st3{font-family:'SwedenSans';}
+	.st4{font-size:10.7056px;}
+	.st5{fill:none;stroke:#FECB00;stroke-miterlimit:10;}
+	.st6{
+	fill:none;stroke:#FECB00;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;
+	stroke-dasharray: 1400;
+	 animation: draw 4s ease-out infinite;
+ }
+ @keyframes draw {
+	 from {
+		 stroke-dashoffset: 1400;
+	 }
+	 to {
+		 stroke-dashoffset: 2800;
+	 }
+ }
+ }
+</style>
+<g>
+	<g>
+		<g>
+			<line class="st0" x1="150.8" y1="426.1" x2="775.2" y2="426.1"/>
+			<g>
+				<g>
+					<line class="st1" x1="151.7" y1="426.1" x2="151.7" y2="415.7"/>
+					<line class="st0" x1="255.6" y1="426.1" x2="255.6" y2="415.7"/>
+					<line class="st0" x1="359.5" y1="426.1" x2="359.5" y2="415.7"/>
+					<line class="st0" x1="463.4" y1="426.1" x2="463.4" y2="415.7"/>
+					<line class="st0" x1="567.4" y1="426.1" x2="567.4" y2="415.7"/>
+					<line class="st0" x1="671.3" y1="426.1" x2="671.3" y2="415.7"/>
+					<line class="st0" x1="775.2" y1="426.1" x2="775.2" y2="415.7"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<text transform="matrix(0.9935 0 0 1 92.2985 437.1031)" class="st2 st3 st4">4</text>
+				<text transform="matrix(0.9935 0 0 1 97.6984 437.1031)" class="st2 st3 st4">,</text>
+				<text transform="matrix(0.9935 0 0 1 100.2345 437.1031)" class="st2 st3 st4">00</text>
+				<text transform="matrix(0.9935 0 0 1 113.4079 437.1031)" class="st2 st3 st4">0,</text>
+				<text transform="matrix(0.9935 0 0 1 122.2433 437.1031)" class="st2 st3 st4">000</text>
+				<text transform="matrix(0.9935 0 0 1 92.319 333.1079)" class="st2 st3 st4">6,</text>
+				<text transform="matrix(0.9935 0 0 1 100.255 333.1079)" class="st2 st3 st4">00</text>
+				<text transform="matrix(0.9935 0 0 1 113.3458 333.1079)" class="st2 st3 st4">0,</text>
+				<text transform="matrix(0.9935 0 0 1 122.2643 333.1079)" class="st2 st3 st4">000</text>
+				<text transform="matrix(0.9935 0 0 1 92.3629 229.1138)" class="st2 st3 st4">8</text>
+				<text transform="matrix(0.9935 0 0 1 97.7623 229.1138)" class="st2 st3 st4">,</text>
+				<text transform="matrix(0.9935 0 0 1 100.299 229.1138)" class="st2 st3 st4">00</text>
+				<text transform="matrix(0.9935 0 0 1 113.3893 229.1138)" class="st2 st3 st4">0,</text>
+				<text transform="matrix(0.9935 0 0 1 122.2252 229.1138)" class="st2 st3 st4">000</text>
+				<text transform="matrix(0.9935 0 0 1 86.756 125.1187)" class="st2 st3 st4">10,</text>
+				<text transform="matrix(0.9935 0 0 1 100.256 125.1187)" class="st2 st3 st4">00</text>
+				<text transform="matrix(0.9935 0 0 1 113.3468 125.1187)" class="st2 st3 st4">0,</text>
+				<text transform="matrix(0.9935 0 0 1 122.2648 125.1187)" class="st2 st3 st4">000</text>
+				<text transform="matrix(0.9935 0 0 1 87.5329 21.1226)" class="st2 st3 st4">12</text>
+				<text transform="matrix(0.9935 0 0 1 97.7609 21.1226)" class="st2 st3 st4">,</text>
+				<text transform="matrix(0.9935 0 0 1 100.2965 21.1226)" class="st2 st3 st4">00</text>
+				<text transform="matrix(0.9935 0 0 1 113.3873 21.1226)" class="st2 st3 st4">0,</text>
+				<text transform="matrix(0.9935 0 0 1 122.2238 21.1226)" class="st2 st3 st4">000</text>
+			</g>
+			<line class="st0" x1="151.7" y1="426.9" x2="151.7" y2="10.1"/>
+			<g>
+				<g>
+					<line class="st5" x1="151.7" y1="426.1" x2="167.2" y2="426.1"/>
+					<line class="st0" x1="151.7" y1="322" x2="167.2" y2="322"/>
+					<line class="st0" x1="151.7" y1="218.1" x2="167.2" y2="218.1"/>
+					<line class="st0" x1="151.7" y1="114.1" x2="167.2" y2="114.1"/>
+					<line class="st0" x1="151.7" y1="10.1" x2="167.2" y2="10.1"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<text transform="matrix(0.9935 0 0 1 711.2994 454.6353)" class="st2 st3 st4">2020</text>
+			<text transform="matrix(0.9935 0 0 1 606.7789 454.6353)" class="st2 st3 st4">2000</text>
+			<text transform="matrix(0.9935 0 0 1 504.1276 454.6353)" class="st2 st3 st4">1980</text>
+			<text transform="matrix(0.9935 0 0 1 400.2306 454.6353)" class="st2 st3 st4">1</text>
+			<text transform="matrix(0.9935 0 0 1 405.0578 454.6353)" class="st2 st3 st4">9</text>
+			<text transform="matrix(0.9935 0 0 1 410.4582 454.6353)" class="st2 st3 st4">60</text>
+			<text transform="matrix(0.9935 0 0 1 296.3117 454.6353)" class="st2 st3 st4">1940</text>
+			<text transform="matrix(0.9935 0 0 1 192.4288 454.6353)" class="st2 st3 st4">1920</text>
+		</g>
+	</g>
+	<polyline class="st6" points="726.6,105.2 622.7,168.5 518.8,197.9 414.9,241.3 311,299.9 207,324.8 	"/>
+</g>
+<g>
+	<path class="st2" d="M415.4,495.2v-5l-3.9-7.9h1.8l2.9,5.8l2.9-5.8h1.8l-3.9,7.9v5H415.4z"/>
+	<path class="st2" d="M421.9,495.2v-12.8h7.8v1.6h-6.2v4h3.8v1.6h-3.8v4.1h6.2v1.6H421.9z"/>
+	<path class="st2" d="M439.1,495.2l-1.1-3.3h-4.7l-1.1,3.3h-1.7l4.2-12.8h1.8l4.2,12.8H439.1z M435.7,484.7l-1.8,5.6h3.7
+		L435.7,484.7z"/>
+	<path class="st2" d="M448.6,495.2l-3.7-5.5h-1.4v5.5h-1.7v-12.8h4.2c2.6,0,4,1.5,4,3.7c0,2-1.2,3.3-3.3,3.6l3.6,5.6H448.6z
+		 M446,488.1c1.5,0,2.5-0.6,2.5-2s-0.9-2.1-2.5-2.1h-2.4v4.1H446z"/>
+</g>
+<g>
+	<path class="st2" d="M63.9,282.6H51.1v-4.2c0-2.6,1.5-4,3.9-4c2.3,0,3.8,1.4,3.8,4v2.5h5.2V282.6z M57.1,278.6
+		c0-1.5-0.7-2.5-2.2-2.5c-1.5,0-2.3,0.9-2.3,2.5v2.4h4.5V278.6z"/>
+	<path class="st2" d="M57.5,272.9c-4.8,0-6.5-2.6-6.5-5s1.7-5,6.5-5c4.8,0,6.5,2.6,6.5,5S62.3,272.9,57.5,272.9z M57.5,264.6
+		c-4.1,0-4.9,1.8-4.9,3.3s0.9,3.3,4.9,3.3c4.1,0,4.9-1.8,4.9-3.3S61.6,264.6,57.5,264.6z"/>
+	<path class="st2" d="M63.9,260.9H51.1v-4.2c0-2.6,1.5-4,3.9-4c2.3,0,3.8,1.4,3.8,4v2.5h5.2V260.9z M57.1,256.8
+		c0-1.5-0.7-2.5-2.2-2.5c-1.5,0-2.3,0.9-2.3,2.5v2.4h4.5V256.8z"/>
+	<path class="st2" d="M51.1,244.1v-1.7H60c2.6,0,4,1.7,4,4.3s-1.4,4.3-4,4.3h-8.9v-1.7h8.8c1.6,0,2.6-0.9,2.6-2.6s-1-2.6-2.6-2.6
+		H51.1z"/>
+	<path class="st2" d="M63.9,240.3H51.1v-1.7h11.2v-4.8h1.6V240.3z"/>
+	<path class="st2" d="M63.9,224.5l-3.3,1.1v4.7l3.3,1.1v1.7l-12.8-4.2V227l12.8-4.2V224.5z M53.4,227.9l5.6,1.8V226L53.4,227.9z"/>
+	<path class="st2" d="M63.9,220.1H52.7v3.8h-1.6v-9.2h1.6v3.8h11.2V220.1z"/>
+	<path class="st2" d="M63.9,213.8h-1.3v-2.4H52.4v2.4h-1.3v-6.5h1.3v2.4h10.2v-2.4h1.3V213.8z"/>
+	<path class="st2" d="M57.5,206.4c-4.8,0-6.5-2.6-6.5-5s1.7-5,6.5-5c4.8,0,6.5,2.6,6.5,5S62.3,206.4,57.5,206.4z M57.5,198.1
+		c-4.1,0-4.9,1.8-4.9,3.3s0.9,3.3,4.9,3.3c4.1,0,4.9-1.8,4.9-3.3S61.6,198.1,57.5,198.1z"/>
+	<path class="st2" d="M63.9,186.6l-9.9,6.2h9.9v1.7H51.1v-1.7l9.9-6.2h-9.9v-1.7h12.8V186.6z"/>
+</g>
+</svg>

@@ -1,0 +1,279 @@
+@font-face {
+    font-family: 'sweden_sansregular';
+    src: url('fonts/wedensans-webfont.eot');
+    src: url('fonts/swedensans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/swedensans-webfont.woff2') format('woff2'),
+         url('fonts/swedensans-webfont.woff') format('woff'),
+         url('fonts/swedensans-webfont.ttf') format('truetype'),
+         url('fonts/swedensans-webfont.svg#sweden_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sweden_sansbold';
+    src: url('fonts/swedensansbold-webfont.eot');
+    src: url('fonts/swedensansbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/swedensansbold-webfont.woff2') format('woff2'),
+         url('fonts/swedensansbold-webfont.woff') format('woff'),
+         url('fonts/swedensansbold-webfont.ttf') format('truetype'),
+         url('fonts/swedensansbold-webfont.svg#sweden_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.placeholder{
+  width: 800px;
+}
+
+body {
+  background-color: #005293;
+  overflow-x: none;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'sweden_sansregular', sans-serif;
+  font-size: 45px;
+  color: #FECB00;
+  margin-left: 25px;
+  margin-top: 100px;
+}
+
+h2 {
+  font-family: 'sweden_sansregular', sans-serif;
+  font-size: 35px;
+  color: #FECB00;
+}
+
+h3 {
+  font-family: 'sweden_sansregular', sans-serif;
+  font-size: 25px;
+  color: #FECB00;
+}
+
+p {
+  font-family: 'sweden_sansregular', sans-serif;
+  font-size: 18px;
+}
+
+.inline {
+  display: inline;
+}
+
+#fix {
+  z-index: 1;
+}
+
+.flag-line {
+  background-color: #FECB00;
+  position: fixed;
+}
+
+.vertical {
+  left: 0;
+  top: 100px;
+  width: 100vw;
+  height: 10px;
+  z-index: 2;
+}
+
+.horizontal {
+  left:100px;
+  top:0;
+  width: 10px;
+  height: 100vh;
+  z-index: 2;
+}
+
+.top-bar {
+  position:  fixed;
+  background-color: #005293;;
+  top:0;
+  left:0;
+  width: 100vw;
+  height:100px;
+  z-index: 1;
+}
+
+#title {
+  position: fixed;
+  left: 150px;
+  top:0;
+  z-index: 2
+}
+
+#container {
+  margin-top: 100px;
+  margin-left: 100px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#header {
+  left:0;
+  top:0;
+  width: 90vw;
+}
+
+.geography {
+  width: 400px;
+  height: 800px;
+  display: inline-block;
+}
+
+#geography-map {
+  margin-left: 300px;
+  width: 400px;
+  height: 800px;
+  display: inline-block;
+}
+
+.geography-city, #geography-map:hover .geography-norm {
+  display: none;
+}
+
+#geography-map:hover .geography-city{
+  display: inline;
+}
+
+.geography-key {
+  width: 300px;
+}
+
+.calendar-grid{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calendar {
+  margin: 20px;
+  width: 200px;
+  height: 150px;
+  background: white;
+  border: #001b5d solid 3px;
+  border-radius: 10px;
+}
+
+.calendar-date {
+  padding-left: 20px;
+  color: #001b5d;
+}
+
+.calendar-1:hover {
+  background: url('img/northern-lights/lights1');
+}
+
+.populationchange-div {
+  display: flex;
+  justify-content: center;
+}
+.populationchange-graph {
+  width: 800px;
+  padding-top: 50px;
+  margin-bottom: -50px;
+  margin-left: -75px;
+}
+
+.energy-parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.group{
+  padding-top: 50px;
+}
+
+.energy-grid {
+  display: inline-grid;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-rows: 75px 75px 75px 75px 75px;
+}
+
+
+.energyimg {
+  width: 50px;
+}
+
+.energy-swed {
+  margin-left: 80px;
+}
+
+.energy-usa {
+  margin-right:100px;
+}
+
+.entitle-swed {
+  margin-left:80px;
+  color: white;
+}
+
+.entitle-usa {
+  margin-right:100px;
+  text-align: right;
+  color: white;
+}
+
+.energy-caption {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: #001b5d 3px solid;
+}
+
+.energy-caption p {
+  color: #001b5d;
+  margin: 10px;
+}
+
+.renewable-caption {
+  left: 500px;
+}
+
+.renewable:hover ~ .renewable-caption {
+  display: inline;
+}
+
+.demoimg {
+  height: 400px;
+}
+
+.demo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 75px;
+  margin-bottom: -25px;
+}
+
+.demo-text {
+  width: 40vw;
+  text-align: center;
+  padding: 175px 0;
+}
+
+.agri-line {
+  height: 3px;
+  width: 90vw;
+  background: #FECB00;
+}
+
+.agri-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.agri-text {
+  margin-left: 25px;
+}
+
+.agriimg {
+  width: 150px;
+  margin-right: 100px;
+}
+
+.agri-row:hover .agriimg {
+  width: 300px;
+}
