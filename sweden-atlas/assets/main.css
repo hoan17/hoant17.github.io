@@ -25,13 +25,14 @@
 }
 
 .placeholder{
-  width: 800px;
+  width: 1200px;
+  height: 800px;
 }
 
 body {
   background-color: #005293;
   overflow-x: none;
-  width: 100%;
+  width: 100vw;
 }
 
 h1 {
@@ -60,12 +61,22 @@ p {
   color: white;
 }
 
+.caption {
+  font-size: 13px;
+  color: #001b5d;
+}
+
 .inline {
   display: inline;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+}
+
 #fix {
-  z-index: 1;
+  z-index: 2;
 }
 
 .flag-line {
@@ -78,7 +89,7 @@ p {
   top: 100px;
   width: 100vw;
   height: 10px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .horizontal {
@@ -86,7 +97,7 @@ p {
   top:0;
   width: 10px;
   height: 100vh;
-  z-index: 2;
+  z-index: 3;
 }
 
 .top-bar {
@@ -96,7 +107,7 @@ p {
   left:0;
   width: 100vw;
   height:100px;
-  z-index: 1;
+  z-index: 2;
 }
 
 #title {
@@ -127,6 +138,7 @@ p {
 
 #geography-map {
   margin-left: 300px;
+  margin-top: -100px;
   width: 400px;
   height: 800px;
   display: inline-block;
@@ -142,6 +154,75 @@ p {
 
 .geography-key {
   width: 300px;
+}
+
+#transportation-parent{
+  position: relative;
+}
+
+.transportation-caption {
+  position: absolute;
+  background-color: white;
+  border: #001b5d 3px solid;
+}
+
+.transportation-caption p {
+  margin: 6px;
+}
+
+.transportation-railway {
+  margin-top: -100px;
+}
+
+.railway-caption {
+  margin-top: -500px;
+  margin-left: 200px;
+}
+
+.plane-caption {
+  margin-top: -290px;
+  margin-left: 710px;
+}
+
+.transportation-plane {
+  width: 50px;
+  top:450px;
+  left: 650px;
+  position: relative;
+}
+
+
+#compared-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.compared-buttons {
+  margin-left:25px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.compared-button {
+  width: 50px;
+  padding-bottom: 50px;
+}
+
+.compared-button:hover{
+  cursor: pointer;
+}
+
+.compared-chart {
+  width: 1000px;
+  padding-right: 0;
+  display: none;
+  margin-top: -100px;
+}
+
+.compared-active{
+  display: block;
 }
 
 #climate-parent {
@@ -170,6 +251,7 @@ p {
 
 .calendar-date {
   padding-left: 20px;
+  padding-top: 10px;
   color: #001b5d;
 }
 
@@ -213,15 +295,50 @@ p {
   background-size: 200px 160px;
 }
 
-.populationchange-div {
-  display: flex;
-  justify-content: center;
-}
 .populationchange-graph {
   width: 800px;
   padding-top: 50px;
   margin-bottom: -50px;
   margin-left: -75px;
+}
+
+.ports-tab{
+  width: 150px;
+  border: 3px solid #FECB00;
+  text-align: center;
+  padding-top: 15px;
+  display: inline-block;
+  margin-bottom: -3px;
+  margin-left: 10px;
+  z-index: 1;
+}
+
+.port-tab:hover {
+  cursor: pointer;
+}
+
+.ports-tab h3 {
+  cursor: pointer;
+}
+
+.ports-active {
+  border-bottom: #005293 3px solid;
+}
+
+.ports-line {
+  width: 90vw;
+  height: 3px;
+  background: #FECB00;
+}
+
+.ports-graph {
+  width: 1200px;
+  display: none;
+  margin-bottom: -50px
+}
+
+.ports-display {
+  display: inline;
 }
 
 .energy-parent {
@@ -272,14 +389,77 @@ p {
 
 .energy-caption p {
   color: #001b5d;
-  margin: 10px;
+  margin: 6px;
 }
 
-.renewable-caption {
+.renewable-swedcaption {
   left: 500px;
 }
 
-.renewable:hover ~ .renewable-caption {
+.renewable-swed:hover ~ .renewable-swedcaption {
+  display: inline;
+}
+
+.nuclear-swedcaption {
+  left: 500px;
+  margin-top:150px;
+}
+
+.nuclear-swed:hover ~ .nuclear-swedcaption {
+  display: inline;
+}
+
+.oil-swedcaption {
+  left: 500px;
+  margin-top:225px;
+}
+
+.oil-swed:hover ~ .oil-swedcaption {
+  display: inline;
+}
+
+.gas-usacaption {
+  left: 1200px;
+}
+
+.gas-usa:hover ~ .gas-usacaption {
+  display: inline;
+}
+
+.oil-usacaption {
+  left: 1200px;
+  margin-top:75px;
+}
+
+.coal-usacaption {
+  left: 1200px;
+  margin-top:225px;
+}
+
+.coal-usa:hover ~ .coal-usacaption {
+  display: inline;
+}
+
+.oil-usa:hover ~ .oil-usacaption {
+  display: inline;
+}
+
+.renewable-usacaption {
+  left: 1200px;
+  margin-top:225px;
+}
+
+.renewable-usa:hover ~ .renewable-usacaption {
+  display: inline;
+}
+
+
+.nuclear-usacaption {
+  left: 1200px;
+  margin-top:300px;
+}
+
+.nuclear-usa:hover ~ .nuclear-usacaption {
   display: inline;
 }
 
@@ -325,9 +505,195 @@ p {
   width: 300px;
 }
 
-#dala-parent {
+/*timeline*/
+.history-collapsible {
+  background-color: #005293;
+  cursor: pointer;
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+.history-era {
+  float: left;
+  margin: 0;
+  padding: 10px 15px;
+  padding-left: 0;
+}
+
+.history-date {
+  float: right;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.history-content {
+  padding: 0 18px;
+  width: 90%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #005293;
+  margin-left: 20px;
+}
+
+.history-flex {
   display: flex;
-  justify-content: center;;
+}
+
+.history-sideimg {
+  width: 600px;
+  height: 400px;
+  padding: 20px 0 40px 40px;;
+}
+
+.timeline {
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.timeline ol {
+  font-size: 0;
+  width: 100vw;
+  padding: 300px 0;
+  transition: all 1s;
+}
+
+.timeline ol li {
+  position: relative;
+  display: inline-block;
+  list-style-type: none;
+  width: 160px;
+  height: 5px;
+  background: #FECB00;
+}
+
+.timeline ol li:last-child {
+  width: 280px;
+}
+
+.timeline ol li:not(:first-child) {
+  margin-left: 14px;
+}
+
+.timeline ol li:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 1px);
+  bottom: 0;
+  width: 15px;
+  height: 15px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #FECB00;
+}
+
+.timeline ol li div {
+  position: absolute;
+  left: calc(100% + 7px);
+  width: 280px;
+  padding: 10px;
+  font-size: 1rem;
+  white-space: normal;
+  color: #FECB00;
+  background: #005293;
+  border: 3px #FECB00 solid;
+}
+
+.timeline ol li div p{
+  margin-left: 10px;
+}
+
+.timeline ol li:nth-child(odd) div {
+  top: -16px;
+  transform: translateY(-100%);
+}
+
+.timeline ol li:nth-child(even) div {
+  top: calc(100% + 16px);
+}
+
+.timeline time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.timeline-img{
+  height: 400px;
+  display: none;
+  z-index: 1;
+}
+
+.arrows {
+ display: flex;
+ justify-content: center;
+ margin-bottom: 20px;
+}
+
+.arrow {
+   background-color: #005293;
+   border: none;
+}
+
+.timeline .arrows .arrow__prev {
+ margin-right: 20px;
+}
+
+.timeline .disabled {
+ opacity: .5;
+}
+
+.timeline .arrows img {
+ width: 45px;
+ height: 45px;
+}
+
+#architecture-grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  position: relative;
+}
+
+.architecture-thumbnail img {
+  width: 200px;
+  border: 2px solid #FECB00;
+}
+
+.architecture-thumbnail:hover{
+  background-color: transparent;
+}
+
+.architecture-thumbnail span{ /*CSS for enlarged image*/
+  position: absolute;
+  padding: 0;
+  left: -1000px;
+  border: 3px solid #FECB00;
+  visibility: hidden;
+}
+
+.architecture-thumbnail span img{ /*CSS for enlarged image*/
+  border-width: 0;
+  padding: 0 0 5px;
+  width: 450px;
+}
+
+.architecture-thumbnail:hover span{ /*CSS for enlarged image*/
+  visibility: visible;
+  top: 0;
+  left: 820px; /*position where enlarged image should offset horizontally */
+  z-index: 1;
+  width: 450px;
+}
+
+.architecture-thumbnail p, h3 {
+  padding-left: 10px;
+  margin-top: 0;
 }
 
 .dala {

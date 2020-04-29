@@ -31,11 +31,30 @@
 
       <div id="transportation-container">
         <h1>TRANSPORTATION</h1>
-        <img src="assets/img/sketch/transportation.jpg" alt="placeholer" class="placeholder">
+        <div id="transportation-parent">
+            <img src="assets/img/transportation/plane.png" alt="railways" class="transportation-plane">
+            <img src="assets/img/transportation/transportation.svg" alt="railways" class="transportation-railway">
+            <div class="transportation-caption railway-caption">
+              <p class="caption">12,821 kilometres of railways</p>
+            </div>
+            <div class="transportation-caption plane-caption">
+              <p class="caption">41 airports</p>
+            </div>
+        </div>
       </div>
 
       <div id="compared-container">
         <h1>SWEDEN COMPARED</h1>
+        <div id="compared-parent">
+          <div class="compared-buttons">
+            <img src="assets/img/compared/eu.png" alt="" class="compared-button compared-eubutton">
+            <img src="assets/img/compared/usa.png" alt="" class="compared-button compared-usabutton">
+            <img src="assets/img/compared/bang.png" alt="" class="compared-button compared-bangbutton">
+          </div>
+          <img src="assets/img/compared/compared-us.png" alt="sweden's and usa's size compared" class="compared-chart compared-us">
+          <img src="assets/img/compared/compared-bang.png" alt="sweden's and bangladesh's population per km compared" class="compared-chart compared-bang">
+          <img src="assets/img/compared/compared-eu.png" alt="sweden's and surrounding countries' population compared" class="compared-chart compared-eu compared-active">
+        </div>
       </div>
 
       <div id="climate-container">
@@ -84,7 +103,7 @@
 
       <div id="populationchange-container">
         <h1>POPULATION OVER TIME</h1>
-        <div class="populationchange-div">
+        <div class="center">
           <img src="assets/img/populationchange/overtime.svg" alt="population over time graph" class="populationchange-graph">
         </div>
       </div>
@@ -113,8 +132,8 @@
         <h1>AGRICULTURAL PRODUCTS</h1>
         <div class="agri-line"></div>
         <div class="agri-row">
-          <h2 class="agri-text">BARLEY</h2>
-          <img src="assets/img/agriculture/barley.png" alt="barley" class="agriimg">
+          <h2 class="agri-text">POTATO</h2>
+          <img src="assets/img/agriculture/potato.png" alt="potato" class="agriimg">
         </div>
         <div class="agri-line"></div>
         <div class="agri-row">
@@ -123,18 +142,8 @@
         </div>
         <div class="agri-line"></div>
         <div class="agri-row">
-          <h2 class="agri-text">OAT</h2>
-          <img src="assets/img/agriculture/oat.png" alt="oat" class="agriimg">
-        </div>
-        <div class="agri-line"></div>
-        <div class="agri-row">
           <h2 class="agri-text">POULTRY</h2>
           <img src="assets/img/agriculture/poultry.png" alt="poultry" class="agriimg">
-        </div>
-        <div class="agri-line"></div>
-        <div class="agri-row">
-          <h2 class="agri-text">POTATO</h2>
-          <img src="assets/img/agriculture/potato.png" alt="potato" class="agriimg">
         </div>
         <div class="agri-line"></div>
         <div class="agri-row">
@@ -143,8 +152,18 @@
         </div>
         <div class="agri-line"></div>
         <div class="agri-row">
-          <h2 class="agri-text">RAPESEED</h2>
-          <img src="assets/img/agriculture/rapeseed.png" alt="rapeseed" class="agriimg">
+          <h2 class="agri-text">WHEAT</h2>
+          <img src="assets/img/agriculture/wheat.png" alt="wheat" class="agriimg">
+        </div>
+        <div class="agri-line"></div>
+        <div class="agri-row">
+          <h2 class="agri-text">OAT</h2>
+          <img src="assets/img/agriculture/oat.png" alt="oat" class="agriimg">
+        </div>
+        <div class="agri-line"></div>
+        <div class="agri-row">
+          <h2 class="agri-text">BARLEY</h2>
+          <img src="assets/img/agriculture/barley.png" alt="barley" class="agriimg">
         </div>
         <div class="agri-line"></div>
         <div class="agri-row">
@@ -153,153 +172,300 @@
         </div>
         <div class="agri-line"></div>
         <div class="agri-row">
-          <h2 class="agri-text">WHEAT</h2>
-          <img src="assets/img/agriculture/wheat.png" alt="wheat" class="agriimg">
+          <h2 class="agri-text">RAPESEED</h2>
+          <img src="assets/img/agriculture/rapeseed.png" alt="rapeseed" class="agriimg">
         </div>
         <div class="agri-line"></div>
       </div>
 
       <div id="ports-container">
         <h1>TRADING</h1>
-        <img src="assets/img/sketch/import.jpg" alt="placeholer" class="placeholder">
+        <div id="ports-directory">
+          <div class="ports-tab import-tab ports-active">
+            <h3>IMPORTS</h3>
+          </div>
+          <div class="ports-tab export-tab">
+            <h3>EXPORTS</h3>
+          </div>
+          <div class="ports-line"></div>
+        </div>
+        <div class="center">
+          <img src="assets/img/importexport/imports.svg" alt="imports" class="ports-graph import ports-display">
+          <img src="assets/img/importexport/exports.svg" alt="exports" class="ports-graph export">
+        </div>
       </div>
 
       <div id="energy-container" class="group">
         <h1>ENERGY CONSUMPTION</h1>
         <div class="energy-parent">
           <div class="energy-grid energy-swed">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <div class="energy-caption renewable-caption">
-            <p>54% Renewable Energy</p>
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-swed">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-swed">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-swed">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-swed">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-swed">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-swed">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-swed">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-swed">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-swed">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-swed">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-swed">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-swed">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-swed">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-swed">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-swed">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-swed">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-swed">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-swed">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-swed">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-swed">
+            <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg nuclear-swed">
+            <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg nuclear-swed">
+            <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg nuclear-swed">
+            <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg nuclear-swed">
+            <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg nuclear-swed">
+            <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg nuclear-swed">
+            <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg nuclear-swed">
+            <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg nuclear-swed">
+            <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg nuclear-swed">
+            <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg nuclear-swed">
+            <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg nuclear-swed">
+            <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg nuclear-swed">
+            <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg nuclear-swed">
+            <img src="assets/img/energy/petroleum.png" alt="oil" class="energyimg oil-swed">
+            <img src="assets/img/energy/petroleum.png" alt="oil" class="energyimg oil-swed">
+            <img src="assets/img/energy/petroleum.png" alt="oil" class="energyimg oil-swed">
+            <div class="energy-caption renewable-swedcaption">
+              <p class="caption">54% Renewable Energy</p>
+            </div>
+            <div class="energy-caption nuclear-swedcaption">
+              <p class="caption">36% Nuclear Energy</p>
+            </div>
+            <div class="energy-caption oil-swedcaption">
+              <p class="caption">10% Petroleum Energy</p>
+            </div>
           </div>
-        </div>
           <div class="energy-grid energy-usa">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg">
-          <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg">
-          <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg">
-          <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg">
-          <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg">
-          <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg">
-          <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg">
-          <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg">
-          <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg">
-          <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg">
-          <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg">
-          <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg">
-          <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg">
-          <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg">
-          <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg">
-          <img src="assets/img/energy/coal.png?" alt="coal" class="energyimg">
-          <img src="assets/img/energy/coal.png?" alt="coal" class="energyimg">
-          <img src="assets/img/energy/coal.png?" alt="coal" class="energyimg">
-          <img src="assets/img/energy/coal.png?" alt="coal" class="energyimg">
-          <img src="assets/img/energy/coal.png?" alt="coal" class="energyimg">
-          <img src="assets/img/energy/coal.png?" alt="coal" class="energyimg">
-          <img src="assets/img/energy/coal.png?" alt="coal" class="energyimg">
-          <img src="assets/img/energy/coal.png?" alt="coal" class="energyimg">
-          <img src="assets/img/energy/coal.png?" alt="coal" class="energyimg">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg">
-          <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-          <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg">
-        </div>
+            <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg gas-usa">
+            <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg gas-usa">
+            <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg gas-usa">
+            <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg gas-usa">
+            <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg gas-usa">
+            <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg gas-usa">
+            <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg gas-usa">
+            <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg gas-usa">
+            <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg gas-usa">
+            <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg gas-usa">
+            <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg gas-usa">
+            <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg gas-usa">
+            <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg gas-usa">
+            <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg gas-usa">
+            <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg gas-usa">
+            <img src="assets/img/energy/gas.png?" alt="gas" class="energyimg gas-usa">
+            <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg oil-usa">
+            <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg oil-usa">
+            <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg oil-usa">
+            <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg oil-usa">
+            <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg oil-usa">
+            <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg oil-usa">
+            <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg oil-usa">
+            <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg oil-usa">
+            <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg oil-usa">
+            <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg oil-usa">
+            <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg oil-usa">
+            <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg oil-usa">
+            <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg oil-usa">
+            <img src="assets/img/energy/petroleum.png?" alt="petroleum" class="energyimg oil-usa">
+            <img src="assets/img/energy/coal.png?" alt="coal" class="energyimg coal-usa">
+            <img src="assets/img/energy/coal.png?" alt="coal" class="energyimg coal-usa">
+            <img src="assets/img/energy/coal.png?" alt="coal" class="energyimg coal-usa">
+            <img src="assets/img/energy/coal.png?" alt="coal" class="energyimg coal-usa">
+            <img src="assets/img/energy/coal.png?" alt="coal" class="energyimg coal-usa">
+            <img src="assets/img/energy/coal.png?" alt="coal" class="energyimg coal-usa">
+            <img src="assets/img/energy/coal.png?" alt="coal" class="energyimg coal-usa">
+            <img src="assets/img/energy/coal.png?" alt="coal" class="energyimg coal-usa">
+            <img src="assets/img/energy/coal.png?" alt="coal" class="energyimg coal-usa">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-usa">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-usa">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-usa">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-usa">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-usa">
+            <img src="assets/img/energy/renewable.png?" alt="renewable" class="energyimg renewable-usa">
+            <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg nuclear-usa">
+            <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg nuclear-usa">
+            <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg nuclear-usa">
+            <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg nuclear-usa">
+            <img src="assets/img/energy/nuclear.png?" alt="nuclear" class="energyimg nuclear-usa">
+            <div class="energy-caption gas-usacaption">
+              <p class="caption">31.8% Natural Gas Energy</p>
+            </div>
+            <div class="energy-caption oil-usacaption">
+              <p class="caption">28% Petroleum Energy</p>
+            </div>
+            <div class="energy-caption coal-usacaption">
+              <p class="caption">17.8% Coal Energy</p>
+            </div>
+            <div class="energy-caption renewable-usacaption">
+              <p class="caption">12.7% Renewable Energy</p>
+            </div>
+            <div class="energy-caption nuclear-usacaption">
+              <p class="caption">9.6% Nuclear Energy</p>
+            </div>
+          </div>
         </div>
         <div class="energy-parent">
           <div class= "entitle-swed">
-          <h3>SWEDEN</h3>
-          <p>5,102.79 kg energy use per capita</p>
-        </div>
+            <h3>SWEDEN</h3>
+            <p>5,102.79 kg energy use per capita</p>
+          </div>
           <div class="entitle-usa">
-          <h3>USA</h3>
-          <p>6,797.62 kg energy use per capita</p>
-        </div>
+            <h3>USA</h3>
+            <p>6,797.62 kg energy use per capita</p>
+          </div>
         </div>
       </div>
 
-      <div id="timeline-container">
+      <div id="history-container">
         <h1>HISTORY</h1>
-        <img src="assets/img/sketch/timeline.png" alt="placeholer" class="placeholder">
+        <div class="agri-line"></div>
+        <button class="history-collapsible"><h2 class="history-era">THE VIKING AGE</h2><h2 class="history-date">800–⁠1050 AD</h2></button>
+        <div class="history-content">
+          <div class="history-flex">
+            <p>The Viking Age was characterised by a significant expansion of activity, in Sweden’s case largely toward the east. Many Viking expeditions set off from Sweden to both plunder and trade along the Baltic coast and the rivers that stretched deep into present-day Russia. The Vikings traveled as far as the Black and Caspian Seas, where they developed trading links with the Byzantine Empire and the Arab kingdoms. Christianity first reached Sweden with a mission led by Ansgar, who visited in the 9th century, but the country was not converted to Christianity until the 11th century.</p>
+            <img src="assets/img/history/viking.png" alt="" class="history-sideimg">
+          </div>
+        </div>
+        <div class="agri-line"></div>
+        <button class="history-collapsible"><h2 class="history-era">FOUNDING OF THE KINGDOM</h2><h2 class="history-date">1000 AD</h2></button>
+        <div class="history-content">
+          <div class="history-flex">
+            <p>The various provinces of Sweden were absorbed around 1000 AD into a single unit, but the crown began to gain significant influence only during the late 13th century. In 1280 King Magnus Ladulås (1275–90) issued a statute authorising the establishment of a nobility and the organisation of society on the feudal model.</p>
+            <img src="assets/img/history/kingdom.png" alt="" class="history-sideimg">
+          </div>
+        </div>
+        <div class="agri-line"></div>
+        <button class="history-collapsible"><h2 class="history-era">THE HANSEATIC PERIOD</h2><h2 class="history-date">MID 13TH–⁠15TH</h2></button>
+        <div class="history-content">
+          <div class="history-flex">
+            <p>Trade grew during the 14th century, especially with the German towns grouped under the leadership of Lübeck. By the mid-16th century, this group, known as the Hanseatic League, dominated Swedish trade, and many towns were founded as a result of lively commercial activity. However, the Black Death, which reached Sweden in 1350, led to a long period of economic and population decline.</p>
+            <img src="assets/img/history/hanseatic.png" alt="" class="history-sideimg">
+          </div>
+        </div>
+        <div class="agri-line"></div>
+        <button class="history-collapsible"><h2 class="history-era">THE KALMAR UNION</h2><h2 class="history-date">1397–⁠1523</h2></button>
+        <div class="history-content">
+          <div class="history-flex">
+            <p>In 1389, the crowns of Denmark, Norway and Sweden were united under the rule of the Danish Queen Margareta. In 1397, the Kalmar Union was formed, with the three Scandinavian countries under a single monarch. However, the union (1397–1523) was scarred by internal conflicts that culminated in the ‘Stockholm Bloodbath’ in 1520, when 80 Swedish nobles were executed at the instigation of the Danish union king, Kristian II. The act provoked a rebellion, which in 1521 led to the deposition of Kristian II and the seizure of power by a Swedish nobleman, Gustav Vasa, who was elected king of Sweden in 1523.</p>
+            <img src="assets/img/history/bloodbath.png" alt="" class="history-sideimg">
+          </div>
+        </div>
+        <div class="agri-line"></div>
+        <button class="history-collapsible"><h2 class="history-era">THE VASA PERIOD</h2><h2 class="history-date">1523–⁠60</h2></button>
+        <div class="history-content">
+          <div class="history-flex">
+            <p>The foundations of the Swedish state were laid during the reign of Gustav Vasa. The church was nationalised, its estates confiscated by the crown, and the Protestant Reformation was introduced. Power was concentrated in the hands of the king and hereditary monarchy came into force in 1544.</p>
+            <img src="assets/img/history/vasa.png" alt="" class="history-sideimg">
+          </div>
+        </div>
+        <div class="agri-line"></div>
+        <button class="history-collapsible"><h2 class="history-era">THE SWEDISH EMPIRE</h2><h2 class="history-date">1600–⁠1900</h2></button>
+        <div class="history-content">
+          <div class="history-flex">
+            <p>Since the dissolution of the Kalmar Union, Swedish foreign policy had been aimed at gaining dominion over the Baltic Sea, leading to repeated wars with Denmark from the 1560s onward. After Sweden intervened in 1630 with great success in the Thirty Years’ War on the side of the German Protestants, and Gustav II Adolf became one of Europe’s most powerful monarchs, Sweden defeated Denmark in the two wars of 1643–45 and 1657–58. Finland, provinces in northern Germany and the present-day Baltic republics also belonged to Sweden, and after the Peace of Westphalia in 1648 and the Peace of Roskilde with Denmark in 1658, Sweden was a great power in northern Europe. The country even founded a short-lived colony in what is now Delaware in North America. However, Sweden had a largely agrarian economy and lacked the resources to maintain its position as a great power in the long run.<br><br>After its defeat in the Great Northern War (1700–21) against the combined forces of Denmark, Poland and Russia, Sweden lost most of its provinces on the other side of the Baltic Sea and was reduced essentially to the same frontiers as present-day Sweden and Finland. During the Napoleonic Wars, Sweden surrendered Finland to Russia. As compensation, the French marshal Jean Baptiste Bernadotte, who had been elected heir to the Swedish throne in 1810, succeeded in obtaining Norway, which was forced into a union with Sweden in 1814. This union was peacefully dissolved in 1905 after many internal disputes.</p>
+            <img src="assets/img/history/thirty.png" alt="" class="history-sideimg">
+          </div>
+        </div>
+        <div class="agri-line"></div>
+        <button class="history-collapsible"><h2 class="history-era">MODERN TIMES</h2><h2 class="history-date">1700–⁠1900</h2></button>
+        <div class="history-content">
+          <section class="timeline">
+            <ol>
+              <li>
+                <div>
+                  <time><h3>1809</h3></time><p>The Instrument of Government of 1809 put an end to royal absolutism</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time class="napo"><h3>1803</h3></time><p>Napoleonic Wars led to general stagnation and economic crisis in Sweden</p>
+                  <img src="assets/img/history/napo.png" alt="" class="timeline-img">
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time><h3>1909</h3></time><p> Universal suffrage was introduced for men</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time><h3>1921</h3></time><p>Universal suffrage was introduced for women</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time><h3>1930</h3></time><p>Plans for a welfare state were drawn up after the Social Democrats rose to power, and put into effect after World War II</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time><h3>1974</h3></time><p>A new Instrument of Government was adopted, stating that all public power is derived from the people, who are to select the members of parliament in free elections</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time><h3>1979</h3></time><p>An amendment to the order of succession gave male and female heirs an equal claim to the throne</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time><h3>1970</h3></time><p>The economic crisis of the early 1970s broke the long hegemony of the Social Democrats. Since 1976, power has changed hands more often</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time><h3>1986</h3></time><p>The murder of Olof Palme came as a shock to the Swedish people, who had been spared such political violence for almost 200 years</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time><h3>1995</h3></time><p>Sweden joined the EU</p>
+                </div>
+              </li>
+              <li></li>
+            </ol>
+            <div class="arrows">
+              <button class="arrow arrow__prev disabled" disabled>
+                <img src="assets/img/history/back.png" alt="prev timeline arrow">
+              </button>
+              <button class="arrow arrow__next">
+                <img src="assets/img/history/forward.png" alt="next timeline arrow">
+              </button>
+            </div>
+        </div>
+        <div class="agri-line"></div>
       </div>
 
       <div id="architecture-container">
         <h1>ARCHITECTURAL LANDMARKS</h1>
-        <img src="assets/img/sketch/architecture.jpg" alt="placeholer" class="placeholder">
+        <div id="architecture-grid">
+          <a class="architecture-thumbnail" href="#thumb"><img src="assets/img/architecture/microscope.png"/><span ><img src="assets/img/architecture/microscope.png"/><br/><h3>Ångströmhuset</h3><p>Europe’s most precise electron microscope – an instrument so sensitive to vibrations, sounds and electromagnetic fields that it needs a building of its own – is covered with titanium plates. It boldly stands out among offices and classrooms on the campus of Linköping University.</p></span></a>
+          <a class="architecture-thumbnail" href="#thumb"><img src="assets/img/architecture/turning.png"/><span ><img src="assets/img/architecture/turning.png"/><br/><h3>Turning Torso</h3><p>Malmö’s Turning Torso, designed by Santiago Calatrava, is the world’s first twisting skyscraper and Scandinavia’s tallest tower at 190 metres. It celebrated its 10th birthday on August 27, 2015, and won the CTBUH’s (Council on Tall Buildings and Urban Habitat) ‘10 Year Award’ the same year.</p></span></a>
+          <a class="architecture-thumbnail" href="#thumb"><img src="assets/img/architecture/church.png"/><span ><img src="assets/img/architecture/church.png"/><br/><h3>Kiruna Kyrka</h3><p>Gustav Wickman’s Kiruna kyrka from 1912 has been voted Sweden’s most beloved building of all time. Due to extensive mining, it will be taken apart, moved and reconstructed in a new location along with the rest of the northern city of Kiruna in the forthcoming years.</p></span></a>
+          <a class="architecture-thumbnail" href="#thumb"><img src="assets/img/architecture/emporia.png"/><span ><img src="assets/img/architecture/emporia.png"/><br/><h3>Emporia</h3><p>Emporia’s gigantic golden chasm, bold colours and bent sightlines break shopping centre conventions. It was built by Wingårdhs in 2012 and is part of an urban planning project – where offices, houses and retail come together in a mixed-use development integrated into the fabric of Malmö.</p></span></a>
+          <a class="architecture-thumbnail" href="#thumb"><img src="assets/img/architecture/ferry.png"/><span ><img src="assets/img/architecture/ferry.png"/><br/><h3>Ferry Terminal Buildings</h3><p>Strömkajen’s ferry terminal buildings provide a gateway to the Stockholm archipelago. The terminals, in the form of cones constructed with squares of brass alloy, are scaled down to highlight the surrounding monumental edifices: the Royal Palace, Grand Hotel and National Art Gallery.</p></span></a>
+          <a class="architecture-thumbnail" href="#thumb"><img src="assets/img/architecture/globe.png"/><span ><img src="assets/img/architecture/globe.png"/><br/><h3>Ericsson Globen</h3><p>The Ericsson Globe – or Globen – is the world’s largest spherical building. It sticks up like a golf ball nestled in between its residential surroundings. The arena, designed by Berg Arkitektkontor, opened in 1989 and has a diameter of 110 metres and a ceiling height of 85 metres.</p></span></a>
+          <a class="architecture-thumbnail" href="#thumb"><img src="assets/img/architecture/hotell.png"/><span ><img src="assets/img/architecture/hotell.png"/><br/><h3>Hotell Borgafjäll</h3><p>Ralph Erskine’s Hotell Borgafjäll, from 1950, is one of the famous architect’s most original projects. The surrounding climate has influenced the long sloped roofs that become part of the local Lapland landscape when covered in snow – and can even be used as a ski slope.</p></span></a>
+          <a class="architecture-thumbnail" href="#thumb"><img src="assets/img/architecture/bridge.png"/><span ><img src="assets/img/architecture/bridge.png"/><br/><h3>Öresundsbron</h3><p>Öresundsbron – with a structure encompassing a tunnel and an artificial island – connects Sweden with Denmark and was designed by COWI. Besides being our planet’s longest cable-tied road and rail bridge, it was finished in August 1999, three months ahead of schedule, and won the IABSE Outstanding Structure Award in 2002.</p></span></a>
+          <a class="architecture-thumbnail" href="#thumb"><img src="assets/img/architecture/mirrorcube.png"/><span ><img src="assets/img/architecture/mirrorcube.png"/><br/><h3>The Mirrorcube</h3><p>The Mirrorcube is one of the half-dozen havens of contemporary architecture that is Treehotel (2010), way up in Harads in the north of Sweden. Renowned Swedish architects – Tham & Videgård, Cyrén & Cyrén, Inredningsgruppen and Sandell Sandberg – have worked on the buildings.</p></span></a>
+          <a class="architecture-thumbnail" href="#thumb"><img src="assets/img/architecture/restaurang.png"/><span ><img src="assets/img/architecture/restaurang.png"/><br/><h3>Restaurang Tusen</h3><p>Murman Arkitekter’s Restaurang Tusen, built in 2008 in the family-owned ski resort of Ramundberget, serves up local and Sami food. The building stands in harmony with nature and is made of birch – the only local tree that grows up to the altitude where the building is located.</p></span></a>
+          <a class="architecture-thumbnail" href="#thumb"><img src="assets/img/architecture/svettekorka.png"/><span ><img src="assets/img/architecture/svettekorka.png"/><br/><h3>Svettekörka</h3><p>A new neighbourhood is being developed in Frihamnen in Gothenburg, and a sauna – Raumlabor's Svettekörka – became the first step. This spectacular yet unpretentious small-scale landmark was built using locally recycled material and locally sourced volunteers. Free of charge and available to the public, the sauna is built in a basin that is part of the river Göta älv.</p></span></a>
+          <a class="architecture-thumbnail" href="#thumb"><img src="assets/img/architecture/aula.png"/><span ><img src="assets/img/architecture/aula.png"/><br/><h3>Aula Medica</h3><p>Wingårdhs’ Aula Medica rises above the traditional cottage – Stenbrottet (the stone quarry) from 1771 – blending old and new Swedish architecture. It was completed in 2013 for the medical university Karolinska institutet, which selects the Nobel Prize laureates in Medicine or Physiology.</p></span></a>
+        </div>
       </div>
 
       <div id="dala-container">
         <h1>WORLD'S LARGEST DALA HORSE VS AVERAGE SWEDISH MAN</h1>
-        <div id="dala-parent">
+        <div class="center">
           <img src="assets/img/dala/dala.png" alt="world's largest dala horse vs average swedish man" class="dala">
         </div>
       </div>
