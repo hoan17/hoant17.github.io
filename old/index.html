@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161005108-1"></script>
+
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-161005108-1');
+    </script>
+
+    <meta charset="utf-8">
+    <title>Trudy Hoang</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="shortcut icon" href="assets/photos/favicon.jpg">
+    <script type="text/javascript" src="assets/js/paper-full.js"></script>
+    <script type="text/paperscript" canvas="canvas">
+      // Adapted from the following Processing example:
+      // http://processing.org/learning/topics/follow3.html
+
+      // The amount of points in the path:
+      var points = 25;
+
+      // The distance between the points:
+      var length = 50;
+
+      var path = new Path({
+          strokeColor: '#FFE600',
+          strokeWidth: 10,
+          strokeCap: 'round'
+      });
+
+      var start = view.center / [10, 1];
+      for (var i = 0; i < points; i++)
+          path.add(start + new Point(i * length, 0));
+
+      function onMouseMove(event) {
+          path.firstSegment.point = event.point;
+          for (var i = 0; i < points - 1; i++) {
+              var segment = path.segments[i];
+              var nextSegment = segment.next;
+              var vector = segment.point - nextSegment.point;
+              vector.length = length;
+              nextSegment.point = segment.point - vector;
+          }
+          path.smooth({ type: 'continuous' });
+      }
+
+      function onMouseDown(event) {
+          path.strokeColor = '#FE4A49';
+      }
+
+      function onMouseUp(event) {
+          path.strokeColor = '#FFE600';
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="topnav">
+      <a class= "home" href="index.html">Trudy Hoang</a>
+      <div class="topnavRight">
+        <a class="navlink" href="about.html">About</a>
+        <a class="navlink" href="contact.html">Contact</a>
+      </div>
+    </div>
+
+    <canvas id="canvas" resize style='position:absolute; width:100%; height:90%;'></canvas>
+    <img src="assets/photos/woop.svg" alt="wiggle" class="sig noselect">
+
+    <h2>Portfolio</h2>
+
+    <div class="parent">
+
+      <a class="child dig" href="projects/openstudio.html" >
+        <img src="assets/photos/openstudio.jpg" alt="" class="photo noselect" draggable="false">
+        <p class="title">Open Studio</p>
+      </a>
+
+
+      <a class="child dig" href="projects/tourism.html">
+        <img src="assets/photos/tourism.jpg" alt="" class="photo noselect" draggable="false">
+        <p class="title">Yelp for Tourism</p>
+      </a>
+
+      <a class="child dig" href="projects/1usd.html">
+        <img src="assets/photos/1usd.jpg" alt="" class="photo noselect" draggable="false">
+        <p class="title">1 USD</p>
+      </a>
+
+      <a class="child pri" href="projects/inside.html">
+        <img src="assets/photos/inside.jpg" alt="" class="photo noselect" draggable="false">
+        <p class="title">It's What's on the Inside that Counts</p>
+      </a>
+
+      <a class="child pri" href="projects/bread.html">
+        <img src="assets/photos/bread.jpg" alt="" class="photo noselect" draggable="false">
+        <p class="title">Let's Get This Bread</p>
+      </a>
+
+      <a class="child" href="">
+        <img src="assets/photos/placeholder.jpg" alt="" class="photo noselect" draggable="false">
+      </a>
+
+    </div>
+
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+
+
+</html>
