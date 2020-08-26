@@ -1,0 +1,57 @@
+@font-face {
+    font-family: IBMPlexSans;
+    font-weight: Medium;
+    src: url("assets/fonts/IBMPlexSans-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: IBMPlexSans;
+    font-weight: SemiBold;
+    src: url("assets/fonts/IBMPlexSans-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: IBMPlexSans;
+    font-weight: Regular;
+    src: url("assets/fonts/IBMPlexSans-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: IBMPlexMono;
+    font-weight: Medium;
+    src: url("assets/fonts/IBMPlexMono-Medium.otf") format("opentype");
+}
+body {
+    color: white;
+    margin: 90px;
+    margin-right: 600px;
+}
+
+#backgroundVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+h1 {
+  font-family: IBMPlexSans;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: IBMPlexSans;
+  font-size: 48px;
+}
+
+h3 {
+  font-family: IBMPlexSans;
+  font-size: 14px;
+}
+
+p {
+  font-family: IBMPlexSans;
+  font-size: 18px;
+}
