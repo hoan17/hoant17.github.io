@@ -52,6 +52,44 @@ h3 {
 }
 
 p {
-  font-family: IBMPlexSans;
+  font-family: IBMPlexMono;
   font-size: 18px;
+}
+
+a {
+  color: white;
+}
+
+.main-link{
+  font-family: IBMPlexSans;
+  font-size: 48px;
+  color: white;
+}
+
+.main-link:hover {
+  font-family: IBMPlexMono;
+}
+
+.button {
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+.button:hover{
+  cursor: pointer;
+  border: 2px solid #3CCD91;
+}
+
+.button-text {
+  font-family: IBMPlexMono;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.button:hover .button-text{
+  color: #3CCD91;
 }
