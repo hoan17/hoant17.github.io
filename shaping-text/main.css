@@ -1,0 +1,142 @@
+body {
+  background: black;
+}
+
+h1{
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight:500;
+
+}
+h2{
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 550;
+}
+p {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+::selection {
+  color: black;
+  background: yellow;
+  text-shadow: 0 0 5px rgba(237,89,42,0);
+}
+
+#title {
+  background-color: rgba(33, 96, 255);
+  color: yellow;
+  padding: 10px 48px 10px 48px;
+  display: inline-block;
+  margin: 24px 48px 24px 48px;
+  border-radius: 20px;
+}
+
+.paragraph {
+  background-color: #fdf4e0;
+  padding: 10px 48px 10px 48px;
+  display: inline-block;
+  margin: 24px 48px 24px 48px;
+  border-radius: 20px;
+}
+
+.blurry {
+  color: transparent;
+  text-shadow: 0 0 5px rgba(33, 96, 255,0.75);
+}
+
+.blurry:hover {
+  color: rgba(33, 96, 255);
+  text-shadow: 0 0 5px rgba(33, 96, 255,0);
+}
+
+img {
+  display: none;
+  width: 300px;
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+}
+
+.importance:hover .importanceImg {
+  display: block;
+}
+.random:hover .randomImg {
+  display: block;
+}
+.laws:hover .lawsImg {
+  display: block;
+}
+.garble:hover .garbleImg {
+  display: block;
+}
+.unscramble:hover .unscrambleImg {
+  display: block;
+}
+.chance:hover .chanceImg {
+  display: block;
+}
+.complex:hover .complexImg {
+  display: block;
+}
+.stock:hover .stockImg {
+  display: block;
+}
+.samples:hover .samplesImg {
+  display: block;
+}
+.surprise:hover .surpriseImg {
+  display: block;
+}
+.supplied:hover .suppliedImg {
+  display: block;
+}
+.computer:hover .computerImg {
+  display: block;
+}
+.formula:hover .formulaImg {
+  display: block;
+}
+.definition:hover .definitionImg {
+  display: block;
+}
+.subatomic:hover .subatomicImg {
+  display: block;
+}
+.world:hover .worldImg {
+  display: block;
+}
+.ernie:hover .ernieImg {
+  display: block;
+}
+.bond:hover .bondImg {
+  display: block;
+}
+.regularities:hover .regularitiesImg {
+  display: block;
+}
+.can:hover .canImg {
+  display: block;
+}
+.making:hover .makingImg {
+  display: block;
+}
+.lack:hover .lackImg {
+  display: block;
+}
+.infinitely:hover .infinitelyImg {
+  display: block;
+}
+.collection:hover .collectionImg {
+  display: block;
+}
+.smartphone:hover .smartphoneImg {
+  display: block;
+}
+.song:hover .songImg {
+  display: block;
+}
+.shuffling:hover .shufflingImg {
+  display: block;
+}
