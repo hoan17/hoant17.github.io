@@ -11,6 +11,8 @@ $(function() {
     $('.aud').css("width", audNum + 'px');
     $('.aud').css("height", audNum + 'px');
 
+    console.log(aud);
+
     var bgn = data.rates.BGN;
     var bgnNum = bgn*(10);
     $('.bgn').css("width", bgnNum + 'px');
