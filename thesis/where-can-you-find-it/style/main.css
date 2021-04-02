@@ -166,6 +166,50 @@ p{
   display: none;
 }
 
+.text3{
+  border-left: 2px black solid;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row: 1;
+  display: none;
+}
+
+.text4 {
+  border-left: 2px black solid;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row: 1;
+  display: none;
+}
+
+.text5{
+  border-left: 2px black solid;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row: 1;
+  display: none;
+}
+
+.item1:hover ~ .text1{
+  display: block;
+}
+
+.item2:hover ~ .text2{
+  display: block;
+}
+
+.item3:hover ~ .text3{
+  display: block;
+}
+
+.item4:hover ~ .text4{
+  display: block;
+}
+
+.item5:hover ~ .text5{
+  display: block;
+}
+
 /* NAVIGATION BAR BELOW */
 
 #menu {
