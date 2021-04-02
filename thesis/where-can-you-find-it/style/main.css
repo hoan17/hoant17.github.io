@@ -190,23 +190,7 @@ p{
   display: none;
 }
 
-.item1:hover ~ .text1{
-  display: block;
-}
-
-.item2:hover ~ .text2{
-  display: block;
-}
-
-.item3:hover ~ .text3{
-  display: block;
-}
-
-.item4:hover ~ .text4{
-  display: block;
-}
-
-.item5:hover ~ .text5{
+.showcap {
   display: block;
 }
 
